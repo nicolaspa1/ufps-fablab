@@ -1,0 +1,19 @@
+{
+  "name": "UFPS-SGD",
+  "version": "1.0",
+  "description": "API de un Sistema de gestión documental para la UFPS.",
+  "author": "Sebasian Vega",
+  "license": "MIT",
+  "homepage": "https://github.com/S8Vega/ufps-sgd#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S8Vega/ufps-sgd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/S8Vega/ufps-sgd/issues"
+  },
+  "engines": {
+    "java": "11",
+    "spring framework": "2.3.1.RELEASE"
+  }
+}
