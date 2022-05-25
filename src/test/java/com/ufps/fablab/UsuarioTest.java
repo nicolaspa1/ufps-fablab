@@ -1,4 +1,4 @@
-package com.ufps.sgd;
+package com.ufps.fablab;
 
 import com.ufps.fablab.domain.service.RolService;
 import com.ufps.fablab.domain.service.UsuarioService;
