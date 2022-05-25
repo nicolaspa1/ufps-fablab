@@ -1,4 +1,4 @@
-package com.ufps.sgd.web.config;
+package com.ufps.fablab.web.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

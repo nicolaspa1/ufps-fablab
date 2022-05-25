@@ -1,6 +1,5 @@
-package com.ufps.sgd.persistence.entity;
+package com.ufps.fablab.persistence.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

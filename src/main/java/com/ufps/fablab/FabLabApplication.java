@@ -1,4 +1,4 @@
-package com.ufps.sgd;
+package com.ufps.fablab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

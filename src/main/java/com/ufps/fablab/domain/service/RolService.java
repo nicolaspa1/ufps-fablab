@@ -1,7 +1,7 @@
-package com.ufps.sgd.domain.service;
+package com.ufps.fablab.domain.service;
 
-import com.ufps.sgd.persistence.crud.RolCrudRepository;
-import com.ufps.sgd.persistence.entity.Rol;
+import com.ufps.fablab.persistence.crud.RolCrudRepository;
+import com.ufps.fablab.persistence.entity.Rol;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

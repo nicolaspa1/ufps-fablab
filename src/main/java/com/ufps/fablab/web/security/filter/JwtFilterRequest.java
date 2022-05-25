@@ -1,7 +1,7 @@
-package com.ufps.sgd.web.security.filter;
+package com.ufps.fablab.web.security.filter;
 
-import com.ufps.sgd.domain.service.UsuarioService;
-import com.ufps.sgd.web.security.JWTUtil;
+import com.ufps.fablab.domain.service.UsuarioService;
+import com.ufps.fablab.web.security.JWTUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;

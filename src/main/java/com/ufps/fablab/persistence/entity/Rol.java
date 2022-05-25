@@ -1,4 +1,4 @@
-package com.ufps.sgd.persistence.entity;
+package com.ufps.fablab.persistence.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

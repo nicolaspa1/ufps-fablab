@@ -1,7 +1,7 @@
-package com.ufps.sgd.web.security;
+package com.ufps.fablab.web.security;
 
-import com.ufps.sgd.domain.service.UsuarioService;
-import com.ufps.sgd.web.security.filter.JwtFilterRequest;
+import com.ufps.fablab.web.security.filter.JwtFilterRequest;
+import com.ufps.fablab.domain.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;

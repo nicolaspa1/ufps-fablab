@@ -1,14 +1,13 @@
-package com.ufps.sgd.domain.service;
+package com.ufps.fablab.domain.service;
 
-import com.ufps.sgd.persistence.crud.UsuarioCrudRepository;
-import com.ufps.sgd.persistence.entity.Usuario;
+import com.ufps.fablab.persistence.crud.UsuarioCrudRepository;
+import com.ufps.fablab.persistence.entity.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.DigestUtils;
 

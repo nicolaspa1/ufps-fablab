@@ -1,9 +1,9 @@
 package com.ufps.sgd;
 
-import com.ufps.sgd.domain.service.RolService;
-import com.ufps.sgd.domain.service.UsuarioService;
-import com.ufps.sgd.persistence.entity.Rol;
-import com.ufps.sgd.persistence.entity.Usuario;
+import com.ufps.fablab.domain.service.RolService;
+import com.ufps.fablab.domain.service.UsuarioService;
+import com.ufps.fablab.persistence.entity.Rol;
+import com.ufps.fablab.persistence.entity.Usuario;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import org.springframework.beans.factory.annotation.Autowired;

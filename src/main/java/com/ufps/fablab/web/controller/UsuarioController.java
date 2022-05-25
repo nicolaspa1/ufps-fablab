@@ -1,10 +1,10 @@
-package com.ufps.sgd.web.controller;
+package com.ufps.fablab.web.controller;
 
-import com.ufps.sgd.domain.dto.AuthenticationRequest;
-import com.ufps.sgd.domain.dto.AuthenticationResponse;
-import com.ufps.sgd.domain.service.UsuarioService;
-import com.ufps.sgd.persistence.entity.Usuario;
-import com.ufps.sgd.web.security.JWTUtil;
+import com.ufps.fablab.persistence.entity.Usuario;
+import com.ufps.fablab.web.security.JWTUtil;
+import com.ufps.fablab.domain.dto.AuthenticationRequest;
+import com.ufps.fablab.domain.dto.AuthenticationResponse;
+import com.ufps.fablab.domain.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.ufps.sgd.domain.dto;
+package com.ufps.fablab.domain.dto;
 
 import lombok.Data;
 import lombok.NonNull;

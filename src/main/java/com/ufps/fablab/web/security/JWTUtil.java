@@ -1,4 +1,4 @@
-package com.ufps.sgd.web.security;
+package com.ufps.fablab.web.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
