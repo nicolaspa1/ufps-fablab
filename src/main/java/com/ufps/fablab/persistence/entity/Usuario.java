@@ -7,6 +7,7 @@ import lombok.NonNull;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Set;
 
 @Data
@@ -29,6 +30,14 @@ public class Usuario implements Serializable {
     private String contrasena;
     @NonNull
     private Boolean enabled;
+    @NonNull
+    private String genero;
+    @NonNull
+    private String email;
+    @NonNull
+    private String ciudad;
+    @NonNull
+    private String telefono;
     @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(name = "usuario_rol", joinColumns = @JoinColumn(name = "usuario_id"),
             inverseJoinColumns = @JoinColumn(name = "rol_id"),
