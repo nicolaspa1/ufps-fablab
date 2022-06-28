@@ -24,5 +24,7 @@ public class Curso implements Serializable {
     private String fecha;
     @NonNull
     private String lugar;
+    @NonNull
+    private String url;
 
 }
